@@ -1,0 +1,105 @@
+
+
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+
+.site-header {
+  background-color: @white;
+  padding: 20px 0;
+  padding: 2rem 0;
+  z-index: 300;
+}
+
+.site-header .wrap {
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+  float: left;
+  .customheader();
+  font-weight: 700;
+  padding: 16px 0;
+  padding: 1.6rem 0;
+  width: 300px;
+}
+
+.header-image .title-area {
+  padding: 0;
+}
+
+.site-title {
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 1;
+  margin: 0 0 8px;
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+}
+
+.site-title a,
+.site-title a:hover {
+  color: #333;
+}
+
+.site-description {
+  .customheader(3);
+  line-height: 1;
+  color: @black;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area,
+.header-full-width .site-title {
+  /*width: 100%;*/
+}
+
+.header-image .site-title a {
+  display: block;
+  text-indent: -9999px;
+}
+
+/* Logo, hide text */
+
+.header-image .site-header .wrap {
+  padding: 0;
+}
+
+.header-image .site-title a {
+  float: left;
+  min-height: 80px;
+  width: 292px;
+  height: 80px;
+  background: url(../img/logo.png) no-repeat center left;
+  background-size: contain;
+  margin: 10px 0 0 0;
+  margin: 1rem 0 0 0;
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+  float: right;
+  text-align: right;
+  clear: right;
+  line-height: 1;
+  margin-top: 0.8em;
+  .widget{
+    display: inline-block;
+  }
+}
+
+.header-image .site-header .widget-area {
+  padding: 0;
+}
+
+.site-header .search-form {
+  float: right;
+}
