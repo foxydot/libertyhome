@@ -6515,6 +6515,7 @@ Site Navigation
 .genesis-nav-menu .separator {
   display: inline-block;
   text-align: left;
+  color: #b1b1b1;
 }
 .genesis-nav-menu .menu-item a,
 .genesis-nav-menu .separator a {
