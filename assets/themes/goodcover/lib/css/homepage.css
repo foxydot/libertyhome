@@ -85,6 +85,11 @@
 .sectioned-page-wrapper .section.section-intro .section-body .wrap {
   max-width: 900px;
 }
+.sectioned-page-wrapper .section.section-coupon {
+  height: 80px;
+  background-color: #b1b1b1;
+  text-transform: uppercase;
+}
 .sectioned-page-wrapper .section.section-residential-commercial {
   color: #ffffff;
   background-size: 1545px 569px;
