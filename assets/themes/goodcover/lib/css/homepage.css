@@ -85,6 +85,9 @@
 .sectioned-page-wrapper .section.section-intro .section-body .wrap {
   max-width: 900px;
 }
+.sectioned-page-wrapper .section.section-logos img {
+  padding-right: 20px;
+}
 .sectioned-page-wrapper .section.section-coupon .section-body {
   height: 80px;
   background-color: #eeeeee;
