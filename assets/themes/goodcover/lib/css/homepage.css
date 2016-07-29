@@ -87,6 +87,7 @@
 }
 .sectioned-page-wrapper .section.section-logos img {
   padding-right: 20px;
+  margin-bottom: -5px;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body {
   height: 80px;
