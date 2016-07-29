@@ -57,10 +57,27 @@
     }
   }
   .section.section-coupon{
-    text-align: left;
-    height:80px;
-    background-color: @ltgrey;
-    text-transform:uppercase;
+    .section-body{
+      height:80px;
+      background-color: @ltgrey;
+      .wrap{
+        max-width:900px;
+        .section-content{
+          p.first-child{
+            text-align: left;
+            text-transform:uppercase;
+          }
+        }
+        .button{
+          .button(@red,@white);
+          &:hover{
+            .button-hover(@white,@red);
+          }
+      }
+    }
+
+
+
   }
   .section.section-residential-commercial{
     color: @white;
