@@ -59,7 +59,7 @@
   width: auto;
 }
 .sectioned-page-wrapper .section {
-  text-align: center;
+  text-align: left;
   background-size: cover;
 }
 .sectioned-page-wrapper .section .section-title {
