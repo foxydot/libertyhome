@@ -86,6 +86,7 @@
   max-width: 900px;
 }
 .sectioned-page-wrapper .section.section-coupon {
+  text-align: left;
   height: 80px;
   background-color: #b1b1b1;
   text-transform: uppercase;
