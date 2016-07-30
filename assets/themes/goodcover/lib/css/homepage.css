@@ -97,10 +97,9 @@
   float: left;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content div.separator {
-  line-height: 2em;
-  display: inline-block;
-  text-align: left;
-  color: #b1b1b1;
+  border-left-style: solid;
+  border-color: #b1b1b1;
+  border-width: thin;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .button {
   padding: 6px 24px;
