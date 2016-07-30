@@ -96,6 +96,14 @@
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap {
   max-width: 900px;
 }
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul li {
+  display: block;
+}
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child {
   text-align: left;
   text-transform: uppercase;
