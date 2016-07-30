@@ -101,7 +101,7 @@
   margin: 0;
   padding: 0;
 }
-.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul li {
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul li a {
   display: block;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child {
