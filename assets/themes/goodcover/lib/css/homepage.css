@@ -96,6 +96,12 @@
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content su-column.last-child {
   float: left;
 }
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content div.separator {
+  line-height: 2em;
+  display: inline-block;
+  text-align: left;
+  color: #b1b1b1;
+}
 .sectioned-page-wrapper .section.section-coupon .section-body .button {
   padding: 6px 24px;
   font-family: "Nunito", "Trebuchet MS", Calibri, sans-serif;
