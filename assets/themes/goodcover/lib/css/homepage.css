@@ -25,13 +25,13 @@
   padding: 0;
   margin: 0;
 }
-.site-inner main.content article.entry .ls-slide .su-button {
+.site-inner main.content article.entry .ls-slide .su_button {
   background-color: #e8363a;
   border-color: #e8363a;
   color: #ffffff;
   text-decoration: none;
 }
-.site-inner main.content article.entry .ls-slide .su-button:hover {
+.site-inner main.content article.entry .ls-slide .su_button:hover {
   background-color: #ed6467;
 }
 .site-inner .button,
