@@ -25,14 +25,14 @@
   padding: 0;
   margin: 0;
 }
-.site-inner main.content article.entry .ls-slide .button {
-  background-color: #28449c;
-  border-color: #28449c;
+.site-inner main.content article.entry .ls-slide .su-button {
+  background-color: #e8363a;
+  border-color: #e8363a;
   color: #ffffff;
   text-decoration: none;
 }
-.site-inner main.content article.entry .ls-slide .button:hover {
-  background-color: #3256c5;
+.site-inner main.content article.entry .ls-slide .su-button:hover {
+  background-color: #ed6467;
 }
 .site-inner .button,
 .site-inner .button:hover {
