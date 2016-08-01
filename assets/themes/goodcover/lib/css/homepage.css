@@ -38,12 +38,12 @@
 .site-inner .button:hover {
   width: auto;
 }
-.site-inner .ls-slide .entry-content ul {
+.site-inner .ls-1 .entry-content ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.site-inner .ls-slide .entry-content li.fa {
+.site-inner .ls-1 .fa {
   font-size: 18px;
   color: #e8363a;
 }
