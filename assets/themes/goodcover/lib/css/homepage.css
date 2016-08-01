@@ -38,6 +38,15 @@
 .site-inner .button:hover {
   width: auto;
 }
+.site-inner .ls-slide ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-inner .ls-slide li.fa {
+  font-size: 18px;
+  color: #e8363a;
+}
 .sectioned-page-wrapper .section {
   text-align: left;
   background-size: cover;
