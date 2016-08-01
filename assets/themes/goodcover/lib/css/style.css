@@ -7123,8 +7123,9 @@ Sidebars
 .sidebar {
   background: #ffffff;
   color: #b1b1b1;
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 6rem 2rem 2rem 6rem;
   height: 100%;
+  border-left: 1px solid #b1b1b1;
 }
 .sidebar a {
   border-bottom: 1px solid #ddd;
