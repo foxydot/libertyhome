@@ -101,7 +101,7 @@
   border-color: #b1b1b1;
   border-width: thin;
 }
-.sectioned-page-wrapper .section.section-coupon .section-body .button {
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .su_button {
   padding: 6px 24px;
   font-family: "Nunito", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
@@ -119,7 +119,7 @@
   border: 2px solid #ffffff;
   border-radius: 6px;
 }
-.sectioned-page-wrapper .section.section-coupon .section-body .button:hover {
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .su_button:hover {
   padding: 6px 24px;
   font-family: "Nunito", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;

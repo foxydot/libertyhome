@@ -95,12 +95,13 @@
               border-width: thin;
           }
           }
+          .su_button{
+            .button(@red,@white);
+            &:hover{
+              .button-hover(@white,@red);
+            }
         }
-        .button{
-          .button(@red,@white);
-          &:hover{
-            .button-hover(@white,@red);
-          }
+
       }
     }
 
