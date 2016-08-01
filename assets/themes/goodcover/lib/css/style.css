@@ -7123,7 +7123,7 @@ Sidebars
 .sidebar {
   background: #ffffff;
   color: #b1b1b1;
-  padding: 6rem 2rem 2rem 6rem;
+  padding: 0rem 2rem 2rem 6rem;
   height: 100%;
   border-left: 1px solid #b1b1b1;
 }
@@ -7145,7 +7145,8 @@ Sidebars
 .sidebar .widget {
   border-radius: 0px;
   border-bottom: 1px solid #b1b1b1;
-  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .sidebar .widget .widget-title {
   font-family: "Lato", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
