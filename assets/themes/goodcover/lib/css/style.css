@@ -7121,9 +7121,9 @@ li.comment {
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
-  background: #e3e2e0;
+  background: #ffffff;
   color: #b1b1b1;
-  padding: 6rem 2rem 2rem 0;
+  padding: 6rem 2rem 2rem 2rem;
   height: 100%;
 }
 .sidebar a {
@@ -7143,6 +7143,7 @@ Sidebars
 }
 .sidebar .widget {
   border-radius: 0px;
+  border-bottom: 1px solid #b1b1b1;
 }
 .sidebar .widget .widget-title {
   font-family: "Lato", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
