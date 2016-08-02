@@ -1,48 +1,51 @@
 .site-header{
   .widget-area{
     width: 70%;
-    .widget.msd-connected{
+    .widget.widget_text.first-child{
       width: 100%;
-      .connected-text{
-        .customheader(3.6);
-        color: @red;
-        width: 75%;
-        float: left;
-        text-align: left;
-        font-weight: 800;
-        a{
-          color: @red;
-          &:hover{
-            text-decoration: none;
+      text-align: left;
+      .all-locations{
+        li{
+          text-align: center;
+          display: inline-flex;
+          font-size: 0.9em;
+          padding: 0 1em;
+          &:first-child{
+            padding-left: 0;
           }
-        }
-        i{
-          color: @black;
-          font-size: 1.4em;    
-          position: relative;
-          top: 0.25em;
-        }
-        .button-wrapper{
-          display: inline-block;
-          position: relative;
-          top: 0.2em;
-          .button{
-            margin: 0 0 0 1em;
-            border-radius: 1.5em;
-            border-color: @medgrey;
-            background-color: fade(@ltgrey,0%);
-            &:hover{
-              border-radius: 1.5em;
-              border-color: @medgrey;
-              background-color: @vltgrey;
+          span{
+            display: block;
+            &.msdsocial_location_name{
+              color: @ltblue;
             }
           }
         }
       }
+    }
+    .widget.msd-visit{
+      width: 75%;
+      float: left;
+      text-align: left;
+      font-size: 0.8em;
+      padding-top:1em;
+      h4.widget-title{
+        display: inline;
+        font-size: 0.9em;
+      }
+      .business-hours,div.hours{
+        display: inline;
+        span.day,span.hours{
+          padding: 0 0.2em; 
+        }
+      }
+      div.hours:not(.last-child):after{
+        content: " | ";
+      }
+    }
+    .widget.msd-connected{
+      width: 25%;
       .connected-social{
-        width: 25%;
         float: left;
-        margin-top: 1.2em;
         .social-media{
           float: right;
         }
@@ -102,7 +105,7 @@
   .connected-social{
     .social-media{
       a.fa{
-        color: @medgrey;
+        color: @ltgrey;
       }
               
      a.fa-facebook:hover{
