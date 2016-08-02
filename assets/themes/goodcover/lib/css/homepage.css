@@ -128,6 +128,9 @@
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button {
   text-transform: uppercase;
 }
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button span {
+  line-height: 1.2 !important;
+}
 .sectioned-page-wrapper .section.section-coupon .section.section-testimonials-news.column-1 .section-body {
   background-color: #ebebeb;
 }
