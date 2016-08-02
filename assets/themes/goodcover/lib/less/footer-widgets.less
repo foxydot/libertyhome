@@ -3,7 +3,7 @@ Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-  background-color: @vdkgrey;
+  background-color: @dkblue;
   color: @white;
   clear: both;
   padding: 2rem 0;
@@ -19,56 +19,78 @@ Footer Widgets
   }
   
   .widget {
-    .make-sm-column(8);
+    .make-sm-column(6);
+    .make-sm-column-offset(2);
     .make-xs-column(12);
     display: block;
     font-size: 0.8em;
-    &:nth-child(1){
-      .make-sm-column(4);
-    }
-    &:nth-child(2){
-      font-size: 0.6em;
+    color: fade(@white,50%);
+    .widget-title{
+      color: @white;
     }
   }
-  .search-form input:focus {
-    border: 0 solid #ddd;
-  }
-  .widget.widget_nav_menu{
-    .wrap();
-    text-align: left;
-    ul.menu{
-      -moz-column-count: 4;
-      -moz-column-gap: 30px;
-      -webkit-column-count: 4;
-      -webkit-column-gap: 30px;
-      column-count: 4;
-      column-gap: 30px;
-      >li{
-        -webkit-column-break-inside: avoid;
-        page-break-inside: avoid;
-        break-inside: avoid;
-        >a{
-          text-transform: uppercase;
-          font-weight: 700;
-        }
-        .sub-menu{
-          margin-bottom: 1em;
-          .sub-menu{
-            display: none;
+  .widget.gform_widget{
+    .make-sm-column(4);
+    .make-sm-column-offset(0);
+    .gform_wrapper{
+      .gform_body{
+        .gform_fields{
+          .gfield{
+            padding-left: 0;
+            label.gfield_label{
+              display: none;
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="color"],
+            input[type="date"],
+            input[type="datetime"],
+            input[type="datetime-local"],
+            input[type="email"],
+            input[type="month"],
+            input[type="number"],
+            input[type="range"],
+            input[type="search"],
+            input[type="tel"],
+            input[type="time"],
+            input[type="url"],
+            input[type="week"],
+            select,
+            textarea{
+              border-radius: 0.5em;
+            }
           }
         }
-        &.first-child{
-          display: none;
+      }
+      .gform_footer{
+        margin: 0;
+        input[type="submit"]{
+          display: inline-block;
+          text-transform: none;
+          color: @white;
+          background-color: @red;
         }
       }
     }
   }
+  .widget.widget_nav_menu{
+    font-size: 1.2em;
+    margin-bottom:2em;
+    a{
+      color: fade(@white,50%);
+      &:hover{
+        color: @white;
+      }
+    }
+  }
+
   .connected-social{
+    margin-bottom:2em;
     .social-media{
       a.fa{
         background: transparent;
         color: @white;
-        opacity: 0.8;
+        opacity: 0.5;
       }
       a.fa-facebook:hover{
        color:@facebook;
