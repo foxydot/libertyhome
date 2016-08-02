@@ -75,9 +75,11 @@
       }
     }
   .section.section-coupon{
+      background-color: @offwhite;
+      line-height: 1.2;
+      font-weight: 300;
+      padding: 0.5em;
     .section-body{
-      height:80px;
-      background-color: #eeeeee;
       .wrap{
         max-width:1100px;
         .section-content{
@@ -88,6 +90,9 @@
               li{
                 display: block;
               }
+          }
+          p{
+            margin:0;
           }
           p.first-child{
             text-align: left;
@@ -106,14 +111,23 @@
               border-color:@ltgrey;
               border-width: thin;
           }
+          .su-row{
+            margin: 0;
           }
-          .su_button{
-            .button(@red,@white);
-            &:hover{
-              .button-hover(@white,@red);
+          &.column-1{
+            .su-row{
+              border-right: 1px solid @ltgrey;
             }
+            .su-button{
+              margin-top:1em;
+            }
+          }
+          &.column-2{
+            h6,.su-button{
+              text-transform: uppercase;
+            }
+          }
         }
-
       }
     }
 

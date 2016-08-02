@@ -5816,7 +5816,7 @@ textarea:focus {
   outline: none;
 }
 ::-moz-placeholder {
-  color: #2B2C2C;
+  color: #DAE0E5;
   opacity: 1;
 }
 ::-webkit-input-placeholder {
@@ -6590,7 +6590,7 @@ Site Navigation
   text-align: center;
 }
 .nav-primary .menu {
-  border-top: 1px solid #E3E2E0;
+  border-top: 1px solid #eeeeee;
 }
 .nav-primary li.menu-item {
   padding: 0 1rem;
@@ -6789,7 +6789,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li > ul.sub-menu,
 .widget_advanced_menu .menu > li.current-menu-ancestor li > ul.sub-menu {
-  background: #E3E2E0;
+  background: #eeeeee;
 }
 .widget_advanced_menu .menu > li.current-menu-item li > ul.sub-menu li,
 .widget_advanced_menu .menu > li.current-menu-ancestor li > ul.sub-menu li {
@@ -7229,7 +7229,7 @@ Footer Widgets
   color: #FFF;
 }
 .footer-widgets a:hover {
-  color: #E3E2E0;
+  color: #eeeeee;
 }
 .footer-widgets .widget {
   position: relative;
@@ -7529,7 +7529,7 @@ Site Footer
   visibility: hidden;
 }
 .sectioned-page-wrapper .section.bkg-grey {
-  background-color: #E3E2E0;
+  background-color: #eeeeee;
 }
 .sectioned-page-wrapper .section.bkg-blue {
   background-color: #28449C;
@@ -7552,8 +7552,8 @@ Site Footer
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-color: rgba(227, 226, 224, 0);
-  border-top-color: #E3E2E0;
+  border-color: rgba(238, 238, 238, 0);
+  border-top-color: #eeeeee;
   border-width: 20px 40px;
   margin-left: -40px;
   z-index: 300;
