@@ -1,6 +1,6 @@
-@import url(//fonts.googleapis.com/css?family=Lato:400,100,300,700,900|Open+Sans:300,400,600,700,800|Nunito:400,300,700);
 /* Import Fonts
 ------------------------------------------------------------ */
+@import url(//fonts.googleapis.com/css?family=Lato:400,100,300,700,900|Open+Sans:300,400,600,700,800|Nunito:400,300,700);
 /* Font Stacks */
 .fontawesome {
   font-family: "FontAwesome";
@@ -26,9 +26,9 @@
   margin: 0;
 }
 .site-inner main.content article.entry .ls-slide .su_button {
-  background-color: #e8363a;
-  border-color: #e8363a;
-  color: #ffffff;
+  background-color: #E8363A;
+  border-color: #E8363A;
+  color: #FFF;
   text-decoration: none;
 }
 .site-inner main.content article.entry .ls-slide .su_button:hover {
@@ -45,7 +45,7 @@
 }
 .site-inner .ls-1 .fa {
   font-size: 18px;
-  color: #e8363a;
+  color: #E8363A;
 }
 .sectioned-page-wrapper .section {
   text-align: left;
@@ -69,7 +69,7 @@
   max-width: 550px;
 }
 .sectioned-page-wrapper .section.section-intro .section-title h3 {
-  color: #28449c;
+  color: #28449C;
 }
 .sectioned-page-wrapper .section.section-intro .section-body .wrap {
   max-width: 900px;
@@ -112,14 +112,14 @@
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content div.separator-coupon {
   border-left-style: solid;
-  border-color: #b1b1b1;
+  border-color: #B1B1B1;
   border-width: thin;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row {
   margin: 0;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-1 .su-row {
-  border-right: 1px solid #b1b1b1;
+  border-right: 1px solid #B1B1B1;
 }
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-1 .su-button {
   margin-top: 1em;
@@ -131,20 +131,17 @@
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button span {
   line-height: 1.2 !important;
 }
-.sectioned-page-wrapper .section.section-coupon .section.section-testimonials-news.column-1 .section-body {
-  background-color: #ebebeb;
-}
-.sectioned-page-wrapper .section.section-coupon .section.section-testimonials-news.column-1 .section-body .col-md-6 {
+.sectioned-page-wrapper .section.section-testimonials-news .section-body .column-1 {
   padding-right: 50px;
 }
-.sectioned-page-wrapper .section.section-coupon .section.section-testimonials-news.column-1 .button {
+.sectioned-page-wrapper .section.section-testimonials-news .button {
   padding: 6px 24px;
   font-family: "Nunito", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -152,17 +149,17 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(232, 54, 58, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFF;
   border-radius: 6px;
 }
-.sectioned-page-wrapper .section.section-coupon .section.section-testimonials-news.column-1 .button:hover {
+.sectioned-page-wrapper .section.section-testimonials-news .button:hover {
   padding: 6px 24px;
   font-family: "Nunito", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #e8363a;
+  color: #E8363A;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -170,12 +167,12 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #e8363a;
+  border: 2px solid #E8363A;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 .sectioned-page-wrapper .section.section-residential-commercial {
-  color: #ffffff;
+  color: #FFF;
   background-size: 1545px 569px;
 }
 .sectioned-page-wrapper .section.section-residential-commercial .section-body .wrap {
@@ -199,7 +196,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -207,7 +204,7 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFF;
   border-radius: 6px;
 }
 .sectioned-page-wrapper .section.section-residential-commercial .section-body .wrap .button:hover {
@@ -217,7 +214,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -225,7 +222,7 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFF;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -235,7 +232,7 @@
 .sectioned-page-wrapper .section.section-openers-and-accessories .section-body .wrap h3 {
   font-weight: 600;
   text-transform: uppercase;
-  color: #2b2c2c;
+  color: #2B2C2C;
 }
 .sectioned-page-wrapper .section.section-openers-and-accessories .section-body .wrap .button {
   padding: 6px 24px;
@@ -244,7 +241,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #2b2c2c;
+  color: #2B2C2C;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -252,7 +249,7 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(177, 177, 177, 0);
-  border: 2px solid #2b2c2c;
+  border: 2px solid #2B2C2C;
   border-radius: 6px;
 }
 .sectioned-page-wrapper .section.section-openers-and-accessories .section-body .wrap .button:hover {
@@ -262,7 +259,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #2b2c2c;
+  color: #2B2C2C;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -270,16 +267,16 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(177, 177, 177, 0);
-  border: 2px solid #2b2c2c;
+  border: 2px solid #2B2C2C;
   border-radius: 6px;
   background-color: rgba(177, 177, 177, 0.4);
 }
 .sectioned-page-wrapper .section.section-architect {
-  color: #ffffff;
+  color: #FFF;
   text-align: left;
 }
 .sectioned-page-wrapper .section.section-architect .section-title h3 {
-  color: #ffffff;
+  color: #FFF;
 }
 .sectioned-page-wrapper .section.section-architect .section-body .button {
   padding: 6px 24px;
@@ -288,7 +285,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -296,7 +293,7 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFF;
   border-radius: 6px;
 }
 .sectioned-page-wrapper .section.section-architect .section-body .button:hover {
@@ -306,7 +303,7 @@
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -314,7 +311,7 @@
   margin: 12px auto;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid #FFF;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -325,4 +322,3 @@
   margin: 0;
   padding: 0;
 }
-/*# sourceMappingURL=homepage.css.map */
