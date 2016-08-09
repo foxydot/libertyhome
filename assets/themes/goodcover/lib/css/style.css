@@ -7996,6 +7996,59 @@ iframe.borderless {
 .banner .texturize .gradient .wrap .intro-text {
   font-size: 1.4em;
 }
+.sectioned-page-wrapper .section.section-coupon {
+  background-color: #eeeeee;
+  line-height: 1.2;
+  font-weight: 300;
+  padding: 0.5em;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap {
+  max-width: 1100px;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content ul li {
+  display: block;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p {
+  margin: 0;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.last-child {
+  text-align: left;
+  text-transform: uppercase;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content su-column.last-child {
+  float: left;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content div.separator-coupon {
+  border-left-style: solid;
+  border-color: #B1B1B1;
+  border-width: thin;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row {
+  margin: 0;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-1 .su-row {
+  border-right: 1px solid #B1B1B1;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-1 .su-button {
+  margin-top: 1em;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 h6,
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button {
+  text-transform: uppercase;
+}
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button span {
+  line-height: 1.2 !important;
+}
 .nav-responsive ul,
 .nav-responsive li,
 .nav-responsive li a {
