@@ -1,6 +1,6 @@
 <?php
 if(class_exists('MSDSectionedPage')){
-//add_action('genesis_after_header','msdlab_show_coupon_banner',12);
+add_action('genesis_after_header','msdlab_show_coupon_banner',12);
 add_action('genesis_before_footer','msdlab_show_logo_banner',4);
 }
 function msdlab_show_coupon_banner(){
