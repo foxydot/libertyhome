@@ -1,7 +1,10 @@
 <?php
-add_action('genesis_after_header','msdlab_show_coupon_banner',6);
+add_action('genesis_after_header','msdlab_show_coupon_banner',12);
 
 function msdlab_show_coupon_banner(){
+    if(is_front_page()){
+        return false;
+    }
     $fp = get_option('page_on_front');
     $template = get_post_meta($fp,'_wp_page_template',TRUE);
     if($template == 'page-sectioned.php'){
