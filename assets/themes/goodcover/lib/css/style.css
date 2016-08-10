@@ -8049,6 +8049,10 @@ iframe.borderless {
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button span {
   line-height: 1.2 !important;
 }
+.sectioned-page-wrapper .section.section-logos img {
+  padding-right: 20px;
+  margin-bottom: -5px;
+}
 .nav-responsive ul,
 .nav-responsive li,
 .nav-responsive li a {
