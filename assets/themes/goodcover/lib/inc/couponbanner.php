@@ -1,5 +1,5 @@
 <?php
-add_action('genesis_before_footer','msdlab_show_coupon_banner',4);
+add_action('genesis_after_header','msdlab_show_coupon_banner',6);
 
 function msdlab_show_coupon_banner(){
     $fp = get_option('page_on_front');
