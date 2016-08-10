@@ -1,7 +1,17 @@
 <?php
-add_action('genesis_after_header','msdlab_show_coupon_banner',12);
-
+if(class_exists('MSDSectionedPage')){
+//add_action('genesis_after_header','msdlab_show_coupon_banner',12);
+add_action('genesis_before_footer','msdlab_show_logo_banner',4);
+}
 function msdlab_show_coupon_banner(){
+    msdlab_display_homepage_section_elsewhere('coupon');
+}
+function msdlab_show_logo_banner(){
+    msdlab_display_homepage_section_elsewhere('logos');
+}
+    
+    
+function msdlab_display_homepage_section_elsewhere($sectionname){
     if(is_front_page()){
         return false;
     }
@@ -12,10 +22,11 @@ function msdlab_show_coupon_banner(){
         $i = 0;
         $meta = $sectioned_page_metabox->the_meta($fp);
         if(is_object($sectioned_page_metabox)){
+            $sections = array();
         while($sectioned_page_metabox->have_fields('sections')){
-            $layout = $sectioned_page_metabox->get_the_value('layout');
             $name = $sectioned_page_metabox->get_the_value('section-name');
-            if($name != 'coupon'){continue;}
+            if($name != $sectionname){$i++;continue;}
+            $layout = $sectioned_page_metabox->get_the_value('layout');
             switch($layout){
                 case "four-col":
                     $sections[] = MSDSectionedPage::column_output($meta['sections'][$i],$i);
@@ -32,9 +43,11 @@ function msdlab_show_coupon_banner(){
             }
             $i++;
         }//close while
-        print '<div class="sectioned-page-wrapper">';
-        print implode("\n",$sections);
-        print '</div>';
+            if(count($sections)>0){
+                print '<div class="sectioned-page-wrapper">';
+                print implode("\n",$sections);
+                print '</div>';
+            }
         }//clsoe if
     }
 }
