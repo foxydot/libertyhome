@@ -63,9 +63,14 @@ function my_metabox_styles()
 }
 
 function msdlab_do_post_subtitle() {
-    global $subtitle_metabox;
+    global $subtitle_metabox,$post;
     $subtitle_metabox->the_meta();
     $subtitle = $subtitle_metabox->get_the_value('subtitle');
+    if ( strlen( $subtitle ) == 0 ){
+        $parent_id = get_topmost_parent($post->ID);
+        $subtitle_metabox->the_meta($parent_id);
+        $subtitle = $subtitle_metabox->get_the_value('subtitle');
+    }
 
     if ( strlen( $subtitle ) == 0 )
         return;
@@ -76,9 +81,14 @@ function msdlab_do_post_subtitle() {
 }
 
 function msdlab_do_post_intro() {
-    global $subtitle_metabox;
+    global $subtitle_metabox,$post;
     $subtitle_metabox->the_meta();
     $intro = $subtitle_metabox->get_the_value('intro');
+    if ( strlen( $intro ) == 0 ){
+        $parent_id = get_topmost_parent($post->ID);
+        $subtitle_metabox->the_meta($parent_id);
+        $intro = $subtitle_metabox->get_the_value('intro');
+    }
 
     if ( strlen( $intro ) == 0 )
         return;
@@ -113,6 +123,12 @@ function msdlab_banner_content(){
             add_action('genesis_entry_header','genesis_do_post_title',5);
         }
         $background = strlen(msdlab_get_thumbnail_url($myid,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($myid,'full').')"':'';
+        //no featured image? check the parent!
+        if ( strlen( $background ) == 0 ){
+            $parent_id = get_topmost_parent($post->ID);
+            $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
+        }
+        
         print '<div class="banner clearfix"'.$background.'>';
         print '<div class="texturize">';
         print '<div class="gradient">';
