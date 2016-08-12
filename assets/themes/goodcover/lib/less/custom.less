@@ -1,3 +1,5 @@
+//main: style.less
+
 .site-header{
   .widget-area{
     width: 70%;
@@ -35,7 +37,7 @@
       .business-hours,div.hours{
         display: inline;
         span.day,span.hours{
-          padding: 0 0.2em; 
+          padding: 0 0.2em;
         }
       }
       div.hours:not(.last-child):after{
@@ -107,7 +109,7 @@
       a.fa{
         color: @ltgrey;
       }
-              
+
      a.fa-facebook:hover{
        color:@facebook;
      }
@@ -263,7 +265,8 @@ iframe.borderless{
       background: -webkit-linear-gradient(left, fade(@ltblue,90%) 0%,fade(@ltblue,90%) 50%,fade(@ltblue,0%) 70%,fade(@ltblue,0%) 100%);
       background: linear-gradient(to right, fade(@ltblue,90%) 0%,fade(@ltblue,90%) 50%,fade(@ltblue,0%) 70%,fade(@ltblue,0%) 100%);
      .wrap{
-        min-height: 300px;
+        min-height: 0;
+        max-height: 230px
         color: @white;
         padding: 2em 0;
         .section-title,.entry-subtitle,.intro-text{
