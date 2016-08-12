@@ -7993,6 +7993,7 @@ iframe.borderless {
 .banner .texturize .gradient .wrap .section-title {
   font-weight: 200;
   text-transform: uppercase;
+  display: none;
 }
 .banner .texturize .gradient .wrap .intro-text {
   font-size: 1.4em;
