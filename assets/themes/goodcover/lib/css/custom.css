@@ -287,7 +287,7 @@ iframe.borderless {
   background-size: cover;
 }
 .banner .texturize .wrap {
-  min-height: 0;
+  min-height: 230px;
   max-height: 230px;
   color: #ffffff;
   padding: 2em 0;
