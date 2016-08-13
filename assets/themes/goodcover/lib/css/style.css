@@ -7974,28 +7974,23 @@ iframe.borderless {
   background-position: center center;
   background-size: cover;
 }
-.banner .texturize .gradient {
-  background: -moz-linear-gradient(left, rgba(72, 149, 206, 0.9) 0%, rgba(72, 149, 206, 0.9) 50%, rgba(72, 149, 206, 0) 70%, rgba(72, 149, 206, 0) 100%);
-  background: -webkit-linear-gradient(left, rgba(72, 149, 206, 0.9) 0%, rgba(72, 149, 206, 0.9) 50%, rgba(72, 149, 206, 0) 70%, rgba(72, 149, 206, 0) 100%);
-  background: linear-gradient(to right, rgba(72, 149, 206, 0.9) 0%, rgba(72, 149, 206, 0.9) 50%, rgba(72, 149, 206, 0) 70%, rgba(72, 149, 206, 0) 100%);
-}
-.banner .texturize .gradient .wrap {
+.banner .texturize .wrap {
   min-height: 0;
   max-height: 230px;
   color: #ffffff;
   padding: 2em 0;
 }
-.banner .texturize .gradient .wrap .section-title,
-.banner .texturize .gradient .wrap .entry-subtitle,
-.banner .texturize .gradient .wrap .intro-text {
+.banner .texturize .wrap .section-title,
+.banner .texturize .wrap .entry-subtitle,
+.banner .texturize .wrap .intro-text {
   max-width: 50%;
 }
-.banner .texturize .gradient .wrap .section-title {
+.banner .texturize .wrap .section-title {
   font-weight: 200;
   text-transform: uppercase;
   display: none;
 }
-.banner .texturize .gradient .wrap .intro-text {
+.banner .texturize .wrap .intro-text {
   font-size: 1.4em;
 }
 .sectioned-page-wrapper .section.section-coupon {

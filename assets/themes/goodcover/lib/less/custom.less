@@ -1,5 +1,9 @@
 //main: style.less
 
+
+@import 'lesshat';
+@import 'mixins';
+
 .site-header{
   .widget-area{
     width: 70%;
@@ -260,10 +264,6 @@ iframe.borderless{
   background-position: center center;
   background-size: cover;
   .texturize{
-    .gradient{
-      background: -moz-linear-gradient(left, fade(@ltblue,90%) 0%, fade(@ltblue,90%) 50%, fade(@ltblue,0%) 70%, fade(@ltblue,0%) 100%);
-      background: -webkit-linear-gradient(left, fade(@ltblue,90%) 0%,fade(@ltblue,90%) 50%,fade(@ltblue,0%) 70%,fade(@ltblue,0%) 100%);
-      background: linear-gradient(to right, fade(@ltblue,90%) 0%,fade(@ltblue,90%) 50%,fade(@ltblue,0%) 70%,fade(@ltblue,0%) 100%);
      .wrap{
         min-height: 0;
         max-height: 230px;
@@ -280,7 +280,7 @@ iframe.borderless{
         .intro-text{
           font-size: 1.4em;
         }
-      }
+
     }
   }
 }
