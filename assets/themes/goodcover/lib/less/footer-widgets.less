@@ -8,6 +8,8 @@ Footer Widgets
   clear: both;
   padding: 2rem 0;
   .widget-area{
+    .make-sm-column(4);
+    .make-xs-column(12);
     .wrap;
   }
   a {
@@ -19,9 +21,6 @@ Footer Widgets
   }
   
   .widget {
-    .make-sm-column(6);
-    .make-sm-column-offset(2);
-    .make-xs-column(12);
     display: block;
     font-size: 0.8em;
     color: fade(@white,50%);
@@ -30,8 +29,6 @@ Footer Widgets
     }
   }
   .widget.gform_widget{
-    .make-sm-column(4);
-    .make-sm-column-offset(0);
     .gform_wrapper{
       .gform_body{
         .gform_fields{
