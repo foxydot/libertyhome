@@ -59,7 +59,6 @@
 .site-header .widget-area .widget.msd-visit .business-hours span.hours,
 .site-header .widget-area .widget.msd-visit div.hours span.hours {
   padding: 0 0.2em;
-  padding-right: 5px;
 }
 .site-header .widget-area .widget.msd-visit div.hours:not(.last-child):after {
   content: " | ";
