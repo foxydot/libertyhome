@@ -9,7 +9,7 @@ add_action( 'admin_print_scripts', 'my_metabox_styles' );
 add_action( 'msdlab_banner_content', 'msdlab_do_post_subtitle' );
 add_action( 'msdlab_banner_content', 'msdlab_do_post_intro' );
 
-            remove_action('genesis_entry_header','genesis_do_post_title');
+            //remove_action('genesis_entry_header','genesis_do_post_title');
 add_action('genesis_after_header','msdlab_banner_content');
 
 
@@ -120,7 +120,7 @@ function msdlab_banner_content(){
         $myid = $post->ID;
         $lvl = 2;
         if(get_section_title()!=$post->post_title){
-            add_action('genesis_entry_header','genesis_do_post_title',5);
+            //add_action('genesis_entry_header','genesis_do_post_title',5);
         }
         $background = strlen(msdlab_get_thumbnail_url($myid,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($myid,'full').')"':'';
         //no featured image? check the parent!
