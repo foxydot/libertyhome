@@ -7963,6 +7963,8 @@ iframe.borderless {
 .banner .texturize .wrap .entry-subtitle,
 .banner .texturize .wrap .intro-text {
   max-width: 100%;
+  font-size: 5rem;
+  text-align: center;
 }
 .banner .texturize .wrap .section-title {
   font-weight: 200;
