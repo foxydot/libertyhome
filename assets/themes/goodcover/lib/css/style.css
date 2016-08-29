@@ -7964,12 +7964,6 @@ iframe.borderless {
 .banner .texturize .wrap .intro-text {
   max-width: 100%;
 }
-.banner .texturize .wrap .section-title h2,
-.banner .texturize .wrap .entry-subtitle h2,
-.banner .texturize .wrap .intro-text h2 {
-  font-size: 5rem;
-  text-align: center;
-}
 .banner .texturize .wrap .section-title {
   font-weight: 200;
   text-transform: uppercase;
@@ -7977,6 +7971,10 @@ iframe.borderless {
 }
 .banner .texturize .wrap .intro-text {
   font-size: 1.4em;
+}
+.banner .texturize .wrap h2 {
+  font-size: 5rem;
+  text-align: center;
 }
 .sectioned-page-wrapper .section.section-coupon {
   background-color: #eeeeee;
