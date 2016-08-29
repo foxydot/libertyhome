@@ -6608,6 +6608,9 @@ Site Navigation
 .nav-primary li.menu-item.last-child {
   padding-right: 0;
 }
+.nav-primary li.menu-item .current-menu-item {
+  background-color: #DAE0E5;
+}
 .nav-primary li.menu-item .sub-menu {
   background-color: #dae0e5;
   margin-top: 0px;
