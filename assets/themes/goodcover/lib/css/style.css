@@ -6539,6 +6539,7 @@ Site Navigation
 }
 .genesis-nav-menu .menu-item:hover {
   position: static;
+  background-color: #DAE0E5;
 }
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
@@ -6646,6 +6647,7 @@ Site Navigation
 .nav-primary li.current-menu-ancestor a:hover {
   color: #000000;
   text-decoration: none;
+  background-color: #DAE0E5;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
   padding: 3px 0;
