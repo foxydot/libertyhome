@@ -78,8 +78,26 @@
   padding: 0;
 }
 @media only screen and (max-width: 980px) {
+  .sectioned-page-wrapper{
+    .section.section-testimonials-news{
+    .background-image(linear-gradient(to bottom, @offwhite 0%,@offwhite 49.9%,@ltblue 50%,@ltblue 100%));
+      border-top: 6px solid @ltblue;
+      border-bottom: 0 solid @ltblue;
+      .section-content{
+       padding-left: 10vw;
+       padding-right: 10vw;
+       &.column-1{
+         background-color: @offwhite;
+       }
+       &.column-2{
+         background-color: @ltblue;
+       }
+      }
+    }
+  }
 }
 
 
 @media only screen and (max-width: 479px) {
+  
 }
