@@ -6511,6 +6511,9 @@ Site Navigation
 .genesis-nav-menu .separator a:hover {
   text-decoration: none;
 }
+.genesis-nav-menu .current-menu-item > a {
+  background-color: #DAE0E5;
+}
 .genesis-nav-menu .sub-menu {
   left: -9999px;
   opacity: 0;
@@ -6608,7 +6611,7 @@ Site Navigation
 .nav-primary li.menu-item.last-child {
   padding-right: 0;
 }
-.nav-primary li.menu-item .current-menu-item {
+.nav-primary li.menu-item .current-page-item {
   background-color: #DAE0E5;
 }
 .nav-primary li.menu-item .sub-menu {
