@@ -65,6 +65,9 @@
   font-weight: 300;
   text-transform: uppercase;
 }
+.sectioned-page-wrapper .section.section-coupon.su-column-size-1-4 su_button {
+  margin-top: 10px;
+}
 .sectioned-page-wrapper .section.section-testimonials-news .section-body .column-1 {
   padding-right: 50px;
 }
