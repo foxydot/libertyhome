@@ -6209,6 +6209,7 @@ div.gform_wrapper textarea,
 div.gform_wrapper .ginput_complex label {
   padding: 2px;
   padding: 0.2rem;
+  color: #b1b1b1;
 }
 div.gform_wrapper .ginput_complex label {
   padding: 0;
