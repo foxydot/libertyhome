@@ -5820,7 +5820,7 @@ textarea:focus {
   opacity: 1;
 }
 ::-webkit-input-placeholder {
-  color: #2b2c2c;
+  color: #dae0e5;
 }
 button,
 input[type="button"],
