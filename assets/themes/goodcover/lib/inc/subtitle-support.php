@@ -19,7 +19,7 @@ function add_custom_metaboxes(){
     (
         'id' => '_subtitle',
         'title' => 'Subtitle & Intro Text',
-        'types' => array('page'),
+        'types' => array('page','post'),
         'context' => 'normal', // same as above, defaults to "normal"
         'priority' => 'high', // same as above, defaults to "high"
         'template' => get_stylesheet_directory() . '/lib/template/subtitle-meta.php',
@@ -115,7 +115,7 @@ function msdlab_banner_content(){
     global $post;
     if(is_front_page()){
         return false;
-    } elseif(is_page()){
+    } elseif(is_page() || (is_single() && is_cpt('post'))){
         global $post;
         $myid = $post->ID;
         $lvl = 2;
@@ -125,8 +125,14 @@ function msdlab_banner_content(){
         $background = strlen(msdlab_get_thumbnail_url($myid,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($myid,'full').')"':'';
         //no featured image? check the parent!
         if ( strlen( $background ) == 0 ){
-            $parent_id = get_topmost_parent($post->ID);
-            $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
+            if(is_page()){
+                $parent_id = get_topmost_parent($post->ID);
+                $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
+            } elseif(is_cpt('post')){
+                $blog_home = get_post(get_option( 'page_for_posts' ));
+                $parent_id = $blog_home->ID;
+                $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
+            }
         }
         
         print '<div class="banner clearfix"'.$background.'>';
@@ -141,5 +147,26 @@ function msdlab_banner_content(){
         print '</div>';
         print '</div>';
         print '</div>';
-    }
+    } elseif(is_home()){
+        $blog_home = get_post(get_option( 'page_for_posts' ));
+        $myid = $blog_home->ID;
+        $lvl = 2;
+        if(get_section_title()!=$post->post_title){
+            //add_action('genesis_entry_header','genesis_do_post_title',5);
+        }
+        $background = strlen(msdlab_get_thumbnail_url($myid,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($myid,'full').')"':'';
+        
+        print '<div class="banner clearfix"'.$background.'>';
+        print '<div class="texturize">';
+        print '<div class="gradient">';
+        print '<div class="wrap">';
+        print '<h'.$lvl.' class="section-title">';
+        print get_the_title($myid);
+        print '</h'.$lvl.'>';
+        do_action('msdlab_banner_content');
+        print '</div>';
+        print '</div>';
+        print '</div>';
+        print '</div>';
+    } 
 }
