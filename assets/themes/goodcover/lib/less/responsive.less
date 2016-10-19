@@ -58,6 +58,10 @@
 
 @media only screen and (max-width: 980px) {
   /* Enter Your Custom Styles Here */ 
+  .wrap{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 
 .site-header{
   .widget-area{
@@ -104,7 +108,9 @@
       column-count: 2;
     }
   }
-  
+  .nav-primary{
+    background: @dkgrey; 
+  }
     .nav-responsive {
       text-align: left;
       border-bottom: 0;
@@ -269,7 +275,7 @@
 
 /* Mobile */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   /* Enter Your Custom Styles Here */ 
   
   .mobile-only {display: block;}
@@ -311,6 +317,15 @@
   .notification-bar{
     font-size: 3.8vw;
   }
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content{ 
+  text-align: center;
+  .su-row{
+    border-right: 0 !important;
+  }
+  p,p.first-child,p.last-child{
+    text-align: center;
+  }
+} 
 }
 
 
@@ -347,9 +362,8 @@
       }
     }
   }
+  }
 }
-  
-} 
 
 @media only screen and (max-width : 322px) {  
   /* Enter Your Custom Styles Here */ 
