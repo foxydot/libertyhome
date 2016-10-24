@@ -84,6 +84,14 @@
 }
 @media only screen and (max-width: 980px) {
   .sectioned-page-wrapper{
+    .section{
+      .section-body{
+        .wrap{
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+      }
+    }
     .section.section-testimonials-news{
     .background-image(linear-gradient(to bottom, @offwhite 0%,@offwhite 49.9%,@ltblue 50%,@ltblue 100%));
       border-top: 6px solid @ltblue;
@@ -103,6 +111,13 @@
 }
 
 
-@media only screen and (max-width: 479px) {
-
+@media only screen and (max-width : 479px) {
+.sectioned-page-wrapper{
+  .section .section-title{
+    width: 100%;
+    h3{
+      font-size: 5vw;
+    }
+  }
+}
 }
