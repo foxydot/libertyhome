@@ -8110,10 +8110,6 @@ iframe.borderless {
 }
 @media only screen and (max-width: 980px) {
   /* Enter Your Custom Styles Here */
-  .wrap {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
   .site-header .widget-area {
     width: 100%;
   }
@@ -8131,6 +8127,8 @@ iframe.borderless {
     padding-top: 0;
   }
   .site-header .widget-area .widget.msd-connected {
+    display: none;
+    visibility: none;
     width: 100%;
     text-align: center;
   }
@@ -8145,6 +8143,9 @@ iframe.borderless {
   }
   .site-inner {
     background-image: none;
+  }
+  .site-inner article.entry {
+    margin: 0;
   }
   .footer-widgets .widget.widget_nav_menu ul.menu {
     -moz-column-count: 2;
@@ -8192,7 +8193,7 @@ iframe.borderless {
     width: 100%;
     padding: 0.5em;
     border-bottom: 1px solid #B1B1B1;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .nav-responsive a#pull ul#mobile_menu li a .toggle-switch {
     right: 15px;
@@ -8262,6 +8263,7 @@ iframe.borderless {
   .header-image .site-header {
     margin: 0 auto;
     text-align: center;
+    padding: 0;
   }
   .header-image .site-header .title-area {
     width: 100%;
@@ -8271,6 +8273,7 @@ iframe.borderless {
   .header-image .site-header .title-area .site-title a {
     width: 100%;
     margin: 1rem auto;
+    height: 7vw;
     float: none;
     background-position: center center;
   }
@@ -8338,6 +8341,10 @@ iframe.borderless {
   .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child,
   .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.last-child {
     text-align: center;
+  }
+  .sectioned-page-wrapper .section.section-logos img {
+    max-height: 11vw;
+    margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 479px) {
