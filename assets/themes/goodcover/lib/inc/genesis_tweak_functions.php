@@ -260,6 +260,10 @@ function msdlab_maybe_move_title(){
         //remove_action('genesis_entry_header','genesis_do_post_title'); //move the title out of the content area
         add_action('genesis_after_header','msdlab_do_title_area');
     }
+    if(is_post_type_archive('post') || is_single()){
+        add_action('msdlab_title_area','msdlab_do_blog_header');
+        add_action('genesis_after_header','msdlab_do_title_area');
+    }
 }
  
 function msdlab_do_title_area(){
@@ -275,6 +279,13 @@ function msdlab_do_title_area(){
         do_action('msdlab_title_area');
         print '</div>';
     }
+}
+
+function msdlab_do_blog_header(){
+    $lvl = 1;
+    $blog_home = get_post(get_option( 'page_for_posts' ));
+    $title = apply_filters( 'genesis_post_title_text', $blog_home->post_title );//* Wrap in H1 on singular pages
+    $titlestr = '<h'.$lvl.' class="'.$type.'-title">'.$title.'</h'.$lvl.'>';
 }
 
 

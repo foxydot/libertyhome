@@ -71,6 +71,11 @@ function msdlab_do_post_subtitle() {
         $subtitle_metabox->the_meta($parent_id);
         $subtitle = $subtitle_metabox->get_the_value('subtitle');
     }
+    
+    if(is_cpt('post')){
+        $blog_home = get_post(get_option( 'page_for_posts' ));
+        $subtitle = apply_filters( 'genesis_post_title_text', $blog_home->post_title );//* Wrap in H1 on singular pages
+    }
 
     if ( strlen( $subtitle ) == 0 )
         return;
@@ -122,6 +127,11 @@ function msdlab_banner_content(){
         if(get_section_title()!=$post->post_title){
             //add_action('genesis_entry_header','genesis_do_post_title',5);
         }
+        $title = get_section_title();
+        if(is_cpt('post')){
+            $blog_home = get_post(get_option( 'page_for_posts' ));
+            $title = apply_filters( 'genesis_post_title_text', $blog_home->post_title );//* Wrap in H1 on singular pages
+        }
         $background = strlen(msdlab_get_thumbnail_url($myid,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($myid,'full').')"':'';
         //no featured image? check the parent!
         if ( strlen( $background ) == 0 ){
@@ -129,7 +139,6 @@ function msdlab_banner_content(){
                 $parent_id = get_topmost_parent($post->ID);
                 $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
             } elseif(is_cpt('post')){
-                $blog_home = get_post(get_option( 'page_for_posts' ));
                 $parent_id = $blog_home->ID;
                 $background = strlen(msdlab_get_thumbnail_url($parent_id,'full'))>0?' style="background-image:url('.msdlab_get_thumbnail_url($parent_id,'full').')"':'';
             }
@@ -139,9 +148,6 @@ function msdlab_banner_content(){
         print '<div class="texturize">';
         print '<div class="gradient">';
         print '<div class="wrap">';
-        print '<h'.$lvl.' class="section-title">';
-        print get_section_title();
-        print '</h'.$lvl.'>';
         do_action('msdlab_banner_content');
         print '</div>';
         print '</div>';
