@@ -50,6 +50,7 @@ jQuery(document).ready(function($) {
             $(".notification-bar").sticky({topSpacing:headerheight + navheight});//190
         } else {
             $("nav.nav-primary").sticky({});
+            $(".section.section-coupon .section-content").removeClass('col-sm-12').addClass('col-xs-6');
         }
     });
     

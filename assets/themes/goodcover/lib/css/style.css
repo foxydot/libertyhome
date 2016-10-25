@@ -8056,6 +8056,9 @@ iframe.borderless {
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button {
   text-transform: uppercase;
 }
+.sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button {
+  margin-top: 10px;
+}
 .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content.column-2 .su-button span {
   line-height: 1.2 !important;
 }
@@ -8347,6 +8350,18 @@ iframe.borderless {
     max-height: 11vw;
     margin-bottom: 0;
   }
+  .banner .texturize .wrap {
+    min-height: 30vw;
+    max-height: 30vw;
+    padding: 5vw 1vw;
+  }
+  .banner .texturize .wrap .intro-text {
+    font-size: 3.5vw;
+  }
+  .banner .texturize .wrap h2 {
+    font-size: 5vw;
+    margin-top: 2vw;
+  }
 }
 @media only screen and (max-width: 479px) {
   .site-header .widget-area {
@@ -8384,8 +8399,13 @@ iframe.borderless {
   .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row {
     border-right: 0 !important;
   }
-  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-column {
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row .su-column {
     display: none;
+    margin: 0 !important;
+    padding: 0;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row .su-column a {
+    margin: 0 !important;
   }
   .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-column.su-column-size-1-5,
   .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-column.su-column-size-1-4 {

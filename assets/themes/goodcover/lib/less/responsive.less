@@ -334,6 +334,23 @@
     margin-bottom: 0;
   }
 }
+
+.banner{
+  .texturize{
+     .wrap{
+        min-height: 30vw;
+        max-height: 30vw;
+        padding: 5vw 1vw;
+        .intro-text{
+          font-size: 3.5vw;
+        }
+        h2{
+        font-size: 5vw;
+        margin-top: 2vw;
+        }
+    }
+  }
+}
 }
 
 
@@ -376,9 +393,12 @@
     text-align: center;
     .su-row{
       border-right: 0 !important;
-    }
-    .su-column{
-      display: none;
+      .su-column{
+        display: none;
+        margin: 0 !important;
+        padding: 0;
+        a{margin: 0 !important;}
+      }
     }
     .su-column.su-column-size-1-5,.su-column.su-column-size-1-4{
       display: block;
