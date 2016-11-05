@@ -6608,18 +6608,10 @@ Site Navigation
   color: #000;
   font-weight: 700;
 }
-.nav-primary li.menu-item.first-child {
-  padding-left: 0;
-}
-.nav-primary li.menu-item.last-child {
-  padding-right: 0;
-}
-.nav-primary li.menu-item .current-menu-item {
-  background-color: #DAE0E5;
-}
 .nav-primary li.menu-item .sub-menu {
   background-color: #DAE0E5;
   margin-top: 0px;
+  margin-left: -1rem;
 }
 .nav-primary li.menu-item .sub-menu li.menu-item {
   background-color: #DAE0E5;
@@ -6647,6 +6639,18 @@ Site Navigation
 .nav-primary li.menu-item .sub-menu li:hover > a {
   color: #000;
   text-decoration: none;
+}
+.nav-primary li.menu-item.first-child {
+  padding-left: 0;
+}
+.nav-primary li.menu-item.first-child .sub-menu {
+  margin-left: 0;
+}
+.nav-primary li.menu-item.last-child {
+  padding-right: 0;
+}
+.nav-primary li.menu-item .current-menu-item {
+  background-color: #DAE0E5;
 }
 .nav-primary li:hover a,
 .nav-primary li.current-menu-item a,
@@ -6688,7 +6692,7 @@ Site Navigation
   position: absolute;
   background: #B1B1B1;
   text-align: center;
-  left: 20px;
+  left: 0px;
   z-index: 500;
 }
 .nav-secondary .wrap li.menu-item ul li {
@@ -7987,12 +7991,12 @@ iframe.borderless {
   min-height: 230px;
   max-height: 230px;
   color: #FFF;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 .banner .texturize .wrap .section-title,
 .banner .texturize .wrap .entry-subtitle,
 .banner .texturize .wrap .intro-text {
-  max-width: 100%;
+  max-width: 55%;
 }
 .banner .texturize .wrap .section-title {
   font-weight: 200;

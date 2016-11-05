@@ -133,18 +133,10 @@ Site Navigation
       font-weight: 700;
 
     }
-    &.first-child{
-      padding-left: 0;
-    }
-    &.last-child{
-      padding-right: 0;
-    }
-    .current-menu-item{
-    background-color: #DAE0E5;
-    }
     .sub-menu{
       background-color: @vltgrey;
       margin-top: 0px;
+      margin-left: -1rem;
       li.menu-item{
         background-color: @vltgrey;
         padding: 0 2rem;
@@ -172,6 +164,18 @@ Site Navigation
           text-decoration: none;
         }
       }
+    }
+    &.first-child{
+      padding-left: 0;
+      .sub-menu{
+        margin-left: 0;
+      }
+    }
+    &.last-child{
+      padding-right: 0;
+    }
+    .current-menu-item{
+    background-color: #DAE0E5;
     }
   }
   li:hover, li.current-menu-item, li.current-menu-ancestor{
@@ -209,7 +213,7 @@ Site Navigation
         position:absolute;
         background:@ltgrey;
         text-align: center;
-        left: 20px;
+        left: 0px;
         z-index: 500;
         li{
           border: 0;

@@ -52,6 +52,7 @@ jQuery(document).ready(function($) {
             $("nav.nav-primary").sticky({});
             $(".section.section-coupon .section-content").removeClass('col-sm-12').addClass('col-xs-6');
         }
+        
     });
     
     $('.site-inner,.sectioned-page-wrapper').imagesLoaded( function() {

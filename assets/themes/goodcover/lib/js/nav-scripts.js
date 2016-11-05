@@ -1,4 +1,17 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){        
+//nav adjustments
+$('#menu-main-nav>li.menu-item').each(function(){
+    var wrapwidth = 1100;
+    var mobilenavwidth = 992;
+    var dropdownwidth = 200;
+    var elempos = $(this).position();
+    var difference = $( window ).width() - elempos.left;
+    if( difference < dropdownwidth){
+        $(this).hover(function(){
+            $(this).children('.sub-menu').css('left',($( window ).width()-dropdownwidth)+'px');
+        });
+    }
+});
     
 /*RESPONSIVE NAVIGATION, COMBINES MENUS EXCEPT FOR FOOTER MENU*/
 
