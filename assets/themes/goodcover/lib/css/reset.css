@@ -4,6 +4,7 @@ HTML5 Reset
 /* Baseline Normalize
   normalize.css v2.1.2 | MIT License | git.io/normalize
 --------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 article,
 aside,
 details,
@@ -18,56 +19,70 @@ section,
 summary {
   display: block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 audio,
 canvas,
 video {
   display: inline-block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 [hidden] {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 body {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 a:focus {
   outline: thin dotted;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 a:active,
 a:hover {
   outline: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 b,
 strong {
   font-weight: bold;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 dfn {
   font-style: italic;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 mark {
   background: #ff0;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 code,
 kbd,
 pre,
@@ -75,15 +90,19 @@ samp {
   font-family: monospace,serif;
   font-size: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 pre {
   white-space: pre-wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 small {
   font-size: 80%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 sub,
 sup {
   font-size: 75%;
@@ -91,30 +110,38 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 sup {
   top: -0.5em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 sub {
   bottom: -0.25em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 img {
   border: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 svg:not(:root) {
   overflow: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 figure {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 legend {
   border: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button,
 input,
 select,
@@ -123,14 +150,17 @@ textarea {
   font-size: 100%;
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button,
 input {
   line-height: normal;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button,
 select {
   text-transform: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -138,40 +168,48 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\000039}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 /* Box Sizing
 --------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/reset\.less}line{font-family:\0000314}}
 *,
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -214,3 +252,4 @@ input[type="search"] {
   display: table;
 }
 */
+/*# sourceMappingURL=reset.css.map */

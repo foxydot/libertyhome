@@ -1,72 +1,90 @@
 @media print {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\000038}}
   * {
     text-shadow: none !important;
     color: #000 !important;
     background: transparent !important;
     box-shadow: none !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000315}}
   a,
   a:visited {
     text-decoration: underline;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000320}}
   a[href]:after {
     content: " (" attr(href) ")";
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000324}}
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000329}}
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000335}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000341}}
   thead {
     display: table-header-group;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000345}}
   tr,
   img {
     page-break-inside: avoid;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000350}}
   img {
     max-width: 100% !important;
   }
   @page {
     margin: 2cm .5cm;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000358}}
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000365}}
   h2,
   h3 {
     page-break-after: avoid;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000371}}
   .navbar {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000375}}
   .table td,
   .table th {
     background-color: #fff !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000382}}
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000386}}
   .label {
     border: 1px solid #000;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000390}}
   .table {
     border-collapse: collapse !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/bootstrap\/less\/print\.less}line{font-family:\0000394}}
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
 }
+/*# sourceMappingURL=print.css.map */
