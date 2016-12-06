@@ -46,7 +46,7 @@
     z-index: 11000;
   }
   .nav-primary li.menu-item a {
-    padding: 1.2vw 1vw;
+    padding: 1.2vw 0.8vw;
     border-bottom-width: 0.4vw;
   }
   .nav-primary li.menu-item:hover a,
@@ -62,7 +62,7 @@
     padding-right: 2vw;
   }
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 992px) {
   /* Enter Your Custom Styles Here */
   .site-header .widget-area {
     width: 100%;
@@ -81,6 +81,8 @@
     padding-top: 0;
   }
   .site-header .widget-area .widget.msd-connected {
+    display: none;
+    visibility: none;
     width: 100%;
     text-align: center;
   }
@@ -96,10 +98,16 @@
   .site-inner {
     background-image: none;
   }
+  .site-inner article.entry {
+    margin: 0;
+  }
   .footer-widgets .widget.widget_nav_menu ul.menu {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
+  }
+  .nav-primary {
+    background: #2b2c2c;
   }
   .nav-responsive {
     text-align: left;
@@ -139,7 +147,7 @@
     width: 100%;
     padding: 0.5em;
     border-bottom: 1px solid #b1b1b1;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .nav-responsive a#pull ul#mobile_menu li a .toggle-switch {
     right: 15px;
@@ -209,6 +217,7 @@
   .header-image .site-header {
     margin: 0 auto;
     text-align: center;
+    padding: 0;
   }
   .header-image .site-header .title-area {
     width: 100%;
@@ -218,6 +227,7 @@
   .header-image .site-header .title-area .site-title a {
     width: 100%;
     margin: 1rem auto;
+    height: 7vw;
     float: none;
     background-position: center center;
   }
@@ -241,7 +251,7 @@
   }
 }
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   /* Enter Your Custom Styles Here */
   .mobile-only {
     display: block;
@@ -275,8 +285,36 @@
   .notification-bar {
     font-size: 3.8vw;
   }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content {
+    text-align: center;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row {
+    border-right: 0 !important;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.last-child,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content h6 {
+    text-align: center;
+  }
+  .sectioned-page-wrapper .section.section-logos img {
+    max-height: 11vw;
+    margin-bottom: 0;
+  }
+  .banner .texturize .wrap {
+    min-height: 30vw;
+    max-height: 30vw;
+    padding: 5vw 1vw;
+  }
+  .banner .texturize .wrap .intro-text {
+    font-size: 3.5vw;
+  }
+  .banner .texturize .wrap h2 {
+    font-size: 5vw;
+    margin-top: 2vw;
+  }
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
   .site-header .widget-area {
     width: 100%;
   }
@@ -306,6 +344,36 @@
   .site-header .widget-area .widget.msd-connected .connected-social .social-media {
     float: none;
   }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content {
+    text-align: center;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row {
+    border-right: 0 !important;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row .su-column {
+    display: none;
+    margin: 0 !important;
+    padding: 0;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-row .su-column a {
+    margin: 0 !important;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-column.su-column-size-1-5,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content .su-column.su-column-size-1-4 {
+    display: block;
+  }
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.first-child,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content p.last-child,
+  .sectioned-page-wrapper .section.section-coupon .section-body .wrap .section-content h6 {
+    text-align: center;
+  }
+  .sectioned-page-wrapper .section .section-title {
+    width: 100%;
+  }
+  .sectioned-page-wrapper .section .section-title h3 {
+    font-size: 6vw;
+  }
 }
 @media only screen and (max-width: 322px) {
   /* Enter Your Custom Styles Here */
@@ -318,4 +386,3 @@
     top: 2em;
   }
 }
-/*# sourceMappingURL=responsive.css.map */
