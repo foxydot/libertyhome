@@ -1,0 +1,74 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,100,300,700,900|Open+Sans:300,400,600,700,800|Nunito:400,300,700);
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+/* Import Fonts
+------------------------------------------------------------ */
+/* Font Stacks */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/mixins\.less}line{font-family:\0000341}}
+.fontawesome {
+  font-family: "FontAwesome";
+}
+/* Colors */
+/* Neutrals */
+/* Arrows */
+/* Buttons */
+/* Clears */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/mixins\.less}line{font-family:\00003236}}
+.msd-clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\000039}}
+.widget ul li {
+  list-style: none inside none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000313}}
+.widget .widget-title {
+  background: none;
+  padding: 0.4rem 0;
+  font-weight: normal;
+  margin-bottom: 0;
+  color: #4895ce;
+}
+/* Featured Content
+--------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000325}}
+.featured-content .entry {
+  border-bottom: 2px solid #f5f5f5;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  padding: 0 10px 24px;
+  padding: 0 1rem 2.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000332}}
+.featured-content .entry .entry-header .entry-title {
+  border: none;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: -0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000339}}
+.featured-content .entry .entry-header .entry-title a {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000343}}
+.featured-content .entry .entry-header .entry-meta {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000350}}
+.featured-content .alignleft {
+  margin-right: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/MSD\/libertyhome\/assets\/themes\/goodcover\/lib\/less\/widgets\.less}line{font-family:\0000354}}
+section.layerslider_widget {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=widgets.css.map */
